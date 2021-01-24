@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+int main()
+{
+    int i,j;
+    srand((unsigned int)time(NULL));
+    i=rand()%10+1;
+    float temperature=i/10.0;
+    printf("You temperature is %.2f\n",36+temperature);
+    return 0;
+}
